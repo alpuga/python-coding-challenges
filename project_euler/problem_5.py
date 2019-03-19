@@ -21,7 +21,6 @@ def lcm(a, b):
 
 def smallest_mult(n):
     least_cm = 1
-    i = 2
     for i in range(n):
         least_cm = lcm(least_cm, i)
 
